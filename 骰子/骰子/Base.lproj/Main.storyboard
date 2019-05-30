@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="骰子" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Cna-9I-LiR">
+                                <rect key="frame" x="0.0" y="33" width="375" height="240"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="VcQ-aa-l62">
+                                        <rect key="frame" x="0.0" y="0.0" width="177.5" height="240"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="骰子1" translatesAutoresizingMaskIntoConstraints="NO" id="kN0-jJ-7GN">
+                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="70"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="骰子1" translatesAutoresizingMaskIntoConstraints="NO" id="r5E-6R-4ZS">
+                                                <rect key="frame" x="0.0" y="85" width="177.5" height="70"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="骰子1" translatesAutoresizingMaskIntoConstraints="NO" id="XFr-YI-Zji">
+                                                <rect key="frame" x="0.0" y="170" width="177.5" height="70"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="ULv-XA-iYn">
+                                        <rect key="frame" x="197.5" y="0.0" width="177.5" height="240"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="骰子1" translatesAutoresizingMaskIntoConstraints="NO" id="QUR-g1-ZAF">
+                                                <rect key="frame" x="0.0" y="0.0" width="177.5" height="70"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="骰子1" translatesAutoresizingMaskIntoConstraints="NO" id="Y0w-fE-lGV">
+                                                <rect key="frame" x="0.0" y="85" width="177.5" height="70"/>
+                                            </imageView>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="骰子1" translatesAutoresizingMaskIntoConstraints="NO" id="PKR-9F-Afr">
+                                                <rect key="frame" x="0.0" y="170" width="177.5" height="70"/>
+                                            </imageView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="90" translatesAutoresizingMaskIntoConstraints="NO" id="Aa4-au-fDx">
+                                <rect key="frame" x="81" y="316" width="213" height="110"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="USO-c1-exy">
+                                        <rect key="frame" x="0.0" y="0.0" width="61.5" height="110"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="左總和" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A0U-4o-qEb">
+                                                <rect key="frame" x="0.0" y="0.0" width="61.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCR-p9-pKb">
+                                                <rect key="frame" x="0.0" y="40" width="61.5" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="擲骰子">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="titleShadowColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="dicesButtonPress:" destination="BYZ-38-t0r" eventType="touchDown" id="aVG-WM-NrX"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="G2D-hU-mMJ">
+                                                <rect key="frame" x="0.0" y="80" width="61.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Gci-v1-lG0">
+                                        <rect key="frame" x="151.5" y="0.0" width="61.5" height="110"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="右總和" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3L3-YT-cCK">
+                                                <rect key="frame" x="0.0" y="0.0" width="61.5" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8kk-LL-cem">
+                                                <rect key="frame" x="0.0" y="40" width="61.5" height="30"/>
+                                                <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <state key="normal" title="擲骰子">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="dicesButtonPress:" destination="BYZ-38-t0r" eventType="touchDown" id="JN3-d2-9hE"/>
+                                                </connections>
+                                            </button>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0W8-fQ-8Fz">
+                                                <rect key="frame" x="0.0" y="80" width="61.5" height="30"/>
+                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="yPb-D1-uyH">
+                                <rect key="frame" x="157" y="428" width="61.5" height="75"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="全總和" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zwk-IC-5Ud">
+                                        <rect key="frame" x="0.0" y="0.0" width="61.5" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YOc-S5-doL">
+                                        <rect key="frame" x="0.0" y="45" width="61.5" height="30"/>
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Aa4-au-fDx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8VF-le-rsZ"/>
+                            <constraint firstItem="yPb-D1-uyH" firstAttribute="top" secondItem="Aa4-au-fDx" secondAttribute="bottom" constant="15" id="AW4-Sp-sAf"/>
+                            <constraint firstItem="yPb-D1-uyH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EZq-yp-Zwg"/>
+                            <constraint firstItem="Cna-9I-LiR" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="240:667" id="IH3-xb-GTF"/>
+                            <constraint firstItem="Cna-9I-LiR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="13" id="LEt-Wp-ea2"/>
+                            <constraint firstItem="Cna-9I-LiR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lv1-sJ-G4c"/>
+                            <constraint firstItem="Cna-9I-LiR" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="hIN-8V-taV"/>
+                            <constraint firstItem="Aa4-au-fDx" firstAttribute="top" secondItem="Cna-9I-LiR" secondAttribute="bottom" constant="30" id="vr2-YW-PKv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="leftButton" destination="FCR-p9-pKb" id="oNO-2g-oSx"/>
+                        <outlet property="myTxt1" destination="G2D-hU-mMJ" id="clv-ng-ise"/>
+                        <outlet property="myTxt2" destination="0W8-fQ-8Fz" id="ydY-EX-Kt3"/>
+                        <outlet property="myTxt3" destination="YOc-S5-doL" id="LhB-mT-gF3"/>
+                        <outlet property="rightButton" destination="8kk-LL-cem" id="D7c-me-7fr"/>
+                        <outletCollection property="leftDices" destination="r5E-6R-4ZS" collectionClass="NSMutableArray" id="H0a-UM-6JY"/>
+                        <outletCollection property="rightDices" destination="XFr-YI-Zji" collectionClass="NSMutableArray" id="8Dj-yQ-OhQ"/>
+                        <outletCollection property="rightDices" destination="kN0-jJ-7GN" collectionClass="NSMutableArray" id="lSZ-0r-ddN"/>
+                        <outletCollection property="rightDices" destination="PKR-9F-Afr" collectionClass="NSMutableArray" id="Jfd-I8-6fF"/>
+                        <outletCollection property="leftDices" destination="QUR-g1-ZAF" collectionClass="NSMutableArray" id="2X5-If-oNw"/>
+                        <outletCollection property="leftDices" destination="Y0w-fE-lGV" collectionClass="NSMutableArray" id="ueF-eh-VW2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="骰子1" width="19.680000305175781" height="19.680000305175781"/>
+    </resources>
+</document>

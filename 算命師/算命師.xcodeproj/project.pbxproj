@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		184E650F226DA7790017F9C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E650E226DA7790017F9C9 /* AppDelegate.swift */; };
+		184E6511226DA7790017F9C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E6510226DA7790017F9C9 /* ViewController.swift */; };
+		184E6514226DA7790017F9C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184E6512226DA7790017F9C9 /* Main.storyboard */; };
+		184E6516226DA77A0017F9C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184E6515226DA77A0017F9C9 /* Assets.xcassets */; };
+		184E6519226DA77A0017F9C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184E6517226DA77A0017F9C9 /* LaunchScreen.storyboard */; };
+		184E6524226DA77A0017F9C9 /* ___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E6523226DA77A0017F9C9 /* ___Tests.swift */; };
+		184E652F226DA77A0017F9C9 /* ___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E652E226DA77A0017F9C9 /* ___UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		184E6520226DA77A0017F9C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184E6503226DA7790017F9C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184E650A226DA7790017F9C9;
+			remoteInfo = "算命師";
+		};
+		184E652B226DA77A0017F9C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 184E6503226DA7790017F9C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184E650A226DA7790017F9C9;
+			remoteInfo = "算命師";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		184E650B226DA7790017F9C9 /* 算命師.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "算命師.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184E650E226DA7790017F9C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184E6510226DA7790017F9C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184E6513226DA7790017F9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184E6515226DA77A0017F9C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184E6518226DA77A0017F9C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184E651A226DA77A0017F9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184E651F226DA77A0017F9C9 /* 算命師Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "算命師Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184E6523226DA77A0017F9C9 /* ___Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___Tests.swift"; sourceTree = "<group>"; };
+		184E6525226DA77A0017F9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184E652A226DA77A0017F9C9 /* 算命師UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "算命師UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184E652E226DA77A0017F9C9 /* ___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "___UITests.swift"; sourceTree = "<group>"; };
+		184E6530226DA77A0017F9C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184E6508226DA7790017F9C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184E651C226DA77A0017F9C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184E6527226DA77A0017F9C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		184E6502226DA7790017F9C9 = {
+			isa = PBXGroup;
+			children = (
+				184E650D226DA7790017F9C9 /* 算命師 */,
+				184E6522226DA77A0017F9C9 /* 算命師Tests */,
+				184E652D226DA77A0017F9C9 /* 算命師UITests */,
+				184E650C226DA7790017F9C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		184E650C226DA7790017F9C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184E650B226DA7790017F9C9 /* 算命師.app */,
+				184E651F226DA77A0017F9C9 /* 算命師Tests.xctest */,
+				184E652A226DA77A0017F9C9 /* 算命師UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184E650D226DA7790017F9C9 /* 算命師 */ = {
+			isa = PBXGroup;
+			children = (
+				184E650E226DA7790017F9C9 /* AppDelegate.swift */,
+				184E6510226DA7790017F9C9 /* ViewController.swift */,
+				184E6512226DA7790017F9C9 /* Main.storyboard */,
+				184E6515226DA77A0017F9C9 /* Assets.xcassets */,
+				184E6517226DA77A0017F9C9 /* LaunchScreen.storyboard */,
+				184E651A226DA77A0017F9C9 /* Info.plist */,
+			);
+			path = "算命師";
+			sourceTree = "<group>";
+		};
+		184E6522226DA77A0017F9C9 /* 算命師Tests */ = {
+			isa = PBXGroup;
+			children = (
+				184E6523226DA77A0017F9C9 /* ___Tests.swift */,
+				184E6525226DA77A0017F9C9 /* Info.plist */,
+			);
+			path = "算命師Tests";
+			sourceTree = "<group>";
+		};
+		184E652D226DA77A0017F9C9 /* 算命師UITests */ = {
+			isa = PBXGroup;
+			children = (
+				184E652E226DA77A0017F9C9 /* ___UITests.swift */,
+				184E6530226DA77A0017F9C9 /* Info.plist */,
+			);
+			path = "算命師UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184E650A226DA7790017F9C9 /* 算命師 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184E6533226DA77A0017F9C9 /* Build configuration list for PBXNativeTarget "算命師" */;
+			buildPhases = (
+				184E6507226DA7790017F9C9 /* Sources */,
+				184E6508226DA7790017F9C9 /* Frameworks */,
+				184E6509226DA7790017F9C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "算命師";
+			productName = "算命師";
+			productReference = 184E650B226DA7790017F9C9 /* 算命師.app */;
+			productType = "com.apple.product-type.application";
+		};
+		184E651E226DA77A0017F9C9 /* 算命師Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184E6536226DA77A0017F9C9 /* Build configuration list for PBXNativeTarget "算命師Tests" */;
+			buildPhases = (
+				184E651B226DA77A0017F9C9 /* Sources */,
+				184E651C226DA77A0017F9C9 /* Frameworks */,
+				184E651D226DA77A0017F9C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184E6521226DA77A0017F9C9 /* PBXTargetDependency */,
+			);
+			name = "算命師Tests";
+			productName = "算命師Tests";
+			productReference = 184E651F226DA77A0017F9C9 /* 算命師Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		184E6529226DA77A0017F9C9 /* 算命師UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184E6539226DA77A0017F9C9 /* Build configuration list for PBXNativeTarget "算命師UITests" */;
+			buildPhases = (
+				184E6526226DA77A0017F9C9 /* Sources */,
+				184E6527226DA77A0017F9C9 /* Frameworks */,
+				184E6528226DA77A0017F9C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				184E652C226DA77A0017F9C9 /* PBXTargetDependency */,
+			);
+			name = "算命師UITests";
+			productName = "算命師UITests";
+			productReference = 184E652A226DA77A0017F9C9 /* 算命師UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184E6503226DA7790017F9C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = WADE;
+				TargetAttributes = {
+					184E650A226DA7790017F9C9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					184E651E226DA77A0017F9C9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 184E650A226DA7790017F9C9;
+					};
+					184E6529226DA77A0017F9C9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 184E650A226DA7790017F9C9;
+					};
+				};
+			};
+			buildConfigurationList = 184E6506226DA7790017F9C9 /* Build configuration list for PBXProject "算命師" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184E6502226DA7790017F9C9;
+			productRefGroup = 184E650C226DA7790017F9C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184E650A226DA7790017F9C9 /* 算命師 */,
+				184E651E226DA77A0017F9C9 /* 算命師Tests */,
+				184E6529226DA77A0017F9C9 /* 算命師UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184E6509226DA7790017F9C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184E6519226DA77A0017F9C9 /* LaunchScreen.storyboard in Resources */,
+				184E6516226DA77A0017F9C9 /* Assets.xcassets in Resources */,
+				184E6514226DA7790017F9C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184E651D226DA77A0017F9C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184E6528226DA77A0017F9C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184E6507226DA7790017F9C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184E6511226DA7790017F9C9 /* ViewController.swift in Sources */,
+				184E650F226DA7790017F9C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184E651B226DA77A0017F9C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184E6524226DA77A0017F9C9 /* ___Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		184E6526226DA77A0017F9C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				184E652F226DA77A0017F9C9 /* ___UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		184E6521226DA77A0017F9C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184E650A226DA7790017F9C9 /* 算命師 */;
+			targetProxy = 184E6520226DA77A0017F9C9 /* PBXContainerItemProxy */;
+		};
+		184E652C226DA77A0017F9C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 184E650A226DA7790017F9C9 /* 算命師 */;
+			targetProxy = 184E652B226DA77A0017F9C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		184E6512226DA7790017F9C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184E6513226DA7790017F9C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184E6517226DA77A0017F9C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184E6518226DA77A0017F9C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184E6531226DA77A0017F9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184E6532226DA77A0017F9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184E6534226DA77A0017F9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VC2DQQ9MD;
+				INFOPLIST_FILE = "算命師/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WadeSHUN.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184E6535226DA77A0017F9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VC2DQQ9MD;
+				INFOPLIST_FILE = "算命師/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WadeSHUN.---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		184E6537226DA77A0017F9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VC2DQQ9MD;
+				INFOPLIST_FILE = "算命師Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WadeSHUN.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/算命師.app/算命師";
+			};
+			name = Debug;
+		};
+		184E6538226DA77A0017F9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VC2DQQ9MD;
+				INFOPLIST_FILE = "算命師Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WadeSHUN.---Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/算命師.app/算命師";
+			};
+			name = Release;
+		};
+		184E653A226DA77A0017F9C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VC2DQQ9MD;
+				INFOPLIST_FILE = "算命師UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WadeSHUN.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "算命師";
+			};
+			name = Debug;
+		};
+		184E653B226DA77A0017F9C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5VC2DQQ9MD;
+				INFOPLIST_FILE = "算命師UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WadeSHUN.---UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "算命師";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184E6506226DA7790017F9C9 /* Build configuration list for PBXProject "算命師" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184E6531226DA77A0017F9C9 /* Debug */,
+				184E6532226DA77A0017F9C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184E6533226DA77A0017F9C9 /* Build configuration list for PBXNativeTarget "算命師" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184E6534226DA77A0017F9C9 /* Debug */,
+				184E6535226DA77A0017F9C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184E6536226DA77A0017F9C9 /* Build configuration list for PBXNativeTarget "算命師Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184E6537226DA77A0017F9C9 /* Debug */,
+				184E6538226DA77A0017F9C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184E6539226DA77A0017F9C9 /* Build configuration list for PBXNativeTarget "算命師UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184E653A226DA77A0017F9C9 /* Debug */,
+				184E653B226DA77A0017F9C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 184E6503226DA7790017F9C9 /* Project object */;
+}
